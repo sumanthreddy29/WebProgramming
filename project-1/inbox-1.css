@@ -88,26 +88,7 @@ body .container_ui label:hover > .container_ui__item .face .color_bar span {
   -webkit-transition-timing-function: ease-in;
   transition-delay: .3s;
 }
-body .container_ui_2 label:hover > .container_ui__item .face .color_bar p {
-  opacity: 0;
-}
 
-body .container_ui_2 label:hover > .container_ui__item .face .color_bar {
-  width: 81px;
-  transition-property: width;
-  transition-duration: .4s;
-  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-body .container_ui_2 label:hover > .container_ui__item .face .color_bar span {
-  opacity: 1;
-  transition-property: opacity;
-  transition-duration: .2s;
-  -webkit-transition-timing-function: ease-in;
-  transition-delay: .3s;
-}
-body .container_ui_2 label:hover > .container_ui__item .face .color_bar p {
-  opacity: 0;
-}
 body .container_ui input[type="checkbox"]:checked + label > .container_ui__expand {
   transition-property: left,opacity;
   transition-duration: .4s;
@@ -126,12 +107,14 @@ body .container_ui .container_ui__expand label {
   font-weight: 700;
   color: #a6a6a6;
 }
-body .container_ui .container_ui__expand label:hover {
-  color: #444444;
-}
+
 body .container_ui input[type="checkbox"]:checked + label > .container_ui__expand label {
   pointer-events: auto;
 }
+body .container_ui .container_ui__expand label:hover {
+  color: #444444;
+}
+
 body .container_ui input[type="checkbox"]:checked + label > .container_ui__expand .body .user .face img {
   -webkit-animation: pop .5s .5s forwards;
           animation: pop .5s .5s forwards;

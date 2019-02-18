@@ -17,7 +17,7 @@ body .container {
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto;
+margin: auto;
   top: 0;
   bottom: 0;
 }
@@ -90,7 +90,7 @@ body .container_ui label:hover > .container_ui__item .face .color_bar span {
 }
 
 body .container_ui input[type="checkbox"]:checked + label > .container_ui__expand {
-  transition-property: left,opacity;
+  transition-property: right,opacity;
   transition-duration: .4s;
   left: 380px;
   z-index: -1;
@@ -107,14 +107,12 @@ body .container_ui .container_ui__expand label {
   font-weight: 700;
   color: #a6a6a6;
 }
-
-body .container_ui input[type="checkbox"]:checked + label > .container_ui__expand label {
-  pointer-events: auto;
-}
 body .container_ui .container_ui__expand label:hover {
   color: #444444;
 }
-
+body .container_ui input[type="checkbox"]:checked + label > .container_ui__expand label {
+  pointer-events: auto;
+}
 body .container_ui input[type="checkbox"]:checked + label > .container_ui__expand .body .user .face img {
   -webkit-animation: pop .5s .5s forwards;
           animation: pop .5s .5s forwards;
@@ -143,7 +141,7 @@ body .container_ui input[type="checkbox"]:checked + label > .container_ui__item 
 }
 body .container_ui input[type="checkbox"]:checked + label > .container_ui__item .face .color_bar p {
   opacity: 1;
-  transition-duration: .3s;
+  transition-duration: .9s;
   transition-delay: 0.4s;
   transition-property: opacity;
 }

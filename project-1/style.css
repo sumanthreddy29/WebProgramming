@@ -7,7 +7,10 @@ body{
   background-size: cover;
     
 }
-
+#video {
+    padding-top: 110px;;
+    text-align: center;
+}
 .heading{
     
     text-align: center;

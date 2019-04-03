@@ -1,0 +1,13 @@
+Codd server links:
+
+Part-1:
+http://codd.cs.gsu.edu/~schinnapullaiah1/Assignment4/part1.html
+
+Calendar:
+http://codd.cs.gsu.edu/~schinnapullaiah1/Assignment4/calendar.php
+
+Calendar php code:
+http://codd.cs.gsu.edu/~schinnapullaiah1/Assignment4/calendar.txt
+
+Calendar CSS:
+http://codd.cs.gsu.edu/~schinnapullaiah1/Assignment4/calendar.css
